@@ -1,0 +1,99 @@
+* {
+	font-family: 'Nunito', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.link1 {
+	cursor: pointer;
+	text-decoration: none;
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+}
+
+.link1 > div {
+	background-color: #ffffff;
+	width: 200px;
+	height: 250px;
+	border-radius: 5%;
+	background-size: cover;
+	transition: 150ms ease;
+	box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.75);
+}
+
+.link1:hover > div {
+	scale: 1.1;
+	box-shadow: 0px 0px 10px 1px rgba(255, 255, 255, 0.7);
+}
+
+.link1:hover > p {
+	color: #ffffff;
+	font-weight: 700;
+}
+
+.txt1 {
+	color: #ffffff;
+	text-align: center;
+	font-weight: 600;
+	font-size: 24px;
+}
+
+.txt2 {
+	color: rgba(222, 226, 230, 0.75);
+	text-align: center;
+	font-size: 16px;
+	transition: 150ms ease;
+}
+
+#grp1 {
+	background-color: #212529ff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 40px;
+	padding-bottom: 0;
+	min-height: 100vh;
+}
+
+#grp1 > :nth-child(2) {
+	margin-top: 10px;
+	margin-bottom: 40px;
+	max-width: 768px;
+}
+
+#grp1 > :last-child {
+	min-height: 80px;
+	flex-grow: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#grp1 > :last-child > p {
+	font-size: 14px;
+	opacity: 0.3;
+	font-weight: 600;
+}
+
+#grp2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 40px;
+	flex-wrap: wrap;
+	border-bottom: 1px solid rgba(222, 226, 230, 0.2);
+	padding-bottom: 40px;
+}
+
+#img1 {
+	background-image: url(img/gims.jpg);
+}
+
+#img2 {
+	background-image: url(img/bill_gates.jpg);
+}
+
+#img3 {
+	background-image: url(img/obito_uchiwa.jpg);
+}
